@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated Tue Sep 29 01:54:17 2026 as: /usr/lib/nmap/nmap --privileged -p21 --script ftp-vsftpd-backdoor -oN retest-vsftpd.txt 192.168.83.129
+Nmap scan report for 192.168.83.129
+Host is up (0.0011s latency).
+
+PORT   STATE  SERVICE
+21/tcp closed ftp
+MAC Address: 00:0C:29:FA:DD:2A (VMware)
+
+# Nmap done at Tue Sep 29 01:54:22 2026 -- 1 IP address (1 host up) scanned in 4.81 seconds

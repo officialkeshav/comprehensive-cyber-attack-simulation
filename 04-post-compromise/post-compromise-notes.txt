@@ -1,0 +1,25 @@
+POST-COMPROMISE EVIDENCE
+
+Target: 192.168.83.129
+Compromised Account: root
+
+Home directories identified:
+/home/ftp
+/home/msfadmin
+/home/service
+/home/user
+
+Web application directories identified:
+/var/www/dvwa
+/var/www/mutillidae
+/var/www/phpMyAdmin
+/var/www/tikiwiki
+/var/www/twiki
+/var/www/test
+
+Sensitive artifact metadata was reviewed:
+- /home/msfadmin/.mysql_history
+- /home/msfadmin/.ssh
+- /home/msfadmin/.rhosts
+
+No sensitive credential contents are included in this repository.

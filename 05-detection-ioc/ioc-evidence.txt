@@ -1,0 +1,63 @@
+DETECTION / IOC SUMMARY
+
+Attacker IP:
+192.168.83.128
+
+Target IP:
+192.168.83.129
+
+Observed evidence:
+
+1. Multiple FTP connections from the attacker IP.
+
+2. Successful anonymous FTP authentication was recorded.
+
+3. SSH protocol identification attempts were recorded.
+
+4. Telnet, RSH, Rlogin and Rexec connection activity was recorded.
+
+5. Suspicious artifact:
+/AIDxKdZq
+
+6. Artifact SHA-256:
+ffaa275472a90a45f468f15810a3bf8c3816234695afbfb003b1c85d6ffa1969
+
+7. Artifact ownership:
+root:root
+
+8. Artifact permissions:
+0700
+
+The repository intentionally excludes raw authentication logs
+and sensitive credential material.DETECTION / IOC SUMMARY
+
+Attacker IP:
+192.168.83.128
+
+Target IP:
+192.168.83.129
+
+Observed evidence:
+
+1. Multiple FTP connections from the attacker IP.
+
+2. Successful anonymous FTP authentication was recorded.
+
+3. SSH protocol identification attempts were recorded.
+
+4. Telnet, RSH, Rlogin and Rexec connection activity was recorded.
+
+5. Suspicious artifact:
+/AIDxKdZq
+
+6. Artifact SHA-256:
+ffaa275472a90a45f468f15810a3bf8c3816234695afbfb003b1c85d6ffa1969
+
+7. Artifact ownership:
+root:root
+
+8. Artifact permissions:
+0700
+
+The repository intentionally excludes raw authentication logs
+and sensitive credential material.

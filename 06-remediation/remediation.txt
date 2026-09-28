@@ -1,0 +1,29 @@
+REMEDIATION
+
+Vulnerable service:
+vsFTPd 2.3.4 on TCP/21
+
+Original xinetd configuration:
+disable = no
+
+Backup created:
+ /etc/xinetd.d/vsftpd.bak
+
+Remediation:
+Changed the xinetd configuration to:
+
+disable = yes
+
+xinetd was restarted using:
+
+/etc/init.d/xinetd restart
+
+Result:
+TCP/21 stopped listening.
+
+Verification:
+Nmap confirmed:
+
+21/tcp closed
+
+The separate ProFTPD service on TCP/2121 was not modified.

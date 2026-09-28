@@ -1,0 +1,50 @@
+==========================================
+FINAL REMEDIATION VERIFICATION
+==========================================
+
+[BEFORE]
+Target: 192.168.83.129
+Vulnerable Service: vsFTPd 2.3.4
+Vulnerability: CVE-2011-2523
+Initial Port: 21/tcp OPEN
+
+[REMEDIATION]
+vsFTPd disabled through xinetd
+Configuration: disable = yes
+
+[AFTER]
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-09-29 01:55 +0530
+Nmap scan report for 192.168.83.129
+Host is up (0.0013s latency).
+
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+2121/tcp open   ccproxy-ftp
+MAC Address: 00:0C:29:FA:DD:2A (VMware)
+
+Nmap done: 1 IP address (1 host up) scanned in 4.75 seconds
+
+[SERVICE DETECTION]
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-09-29 01:55 +0530
+Nmap scan report for 192.168.83.129
+Host is up (0.00097s latency).
+
+PORT     STATE  SERVICE VERSION
+21/tcp   closed ftp
+2121/tcp open   ftp     ProFTPD 1.3.1
+MAC Address: 00:0C:29:FA:DD:2A (VMware)
+Service Info: OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 15.03 seconds
+
+[VULNERABILITY RE-TEST]
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-09-29 01:55 +0530
+Nmap scan report for 192.168.83.129
+Host is up (0.0012s latency).
+
+PORT   STATE  SERVICE
+21/tcp closed ftp
+MAC Address: 00:0C:29:FA:DD:2A (VMware)
+
+Nmap done: 1 IP address (1 host up) scanned in 4.81 seconds

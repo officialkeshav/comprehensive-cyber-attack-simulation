@@ -1,0 +1,22 @@
+SUSPICIOUS ARTIFACT IOC
+
+Path:
+/AIDxKdZq
+
+Type:
+ELF 32-bit LSB shared object, Intel 80386
+
+Size:
+1188612 bytes
+
+Permissions:
+0700
+
+Owner:
+root:root
+
+SHA-256:
+ffaa275472a90a45f468f15810a3bf8c3816234695afbfb003b1c85d6ffa1969
+
+Important:
+The artifact was not executed or deleted during the investigation.

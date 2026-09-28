@@ -1,0 +1,29 @@
+# Sensitive / temporary files
+*.log
+*.pcap
+*.pcapng
+*.cap
+*.key
+*.pem
+*.env
+*.db
+*.sqlite
+
+# Credentials / tokens / session data
+*cookie*
+*token*
+*password*
+*passwd*
+*secret*
+*otp*
+
+# Common lab artifacts
+flag.txt
+users.txt
+names.txt
+values.txt
+
+# OS / editor files
+.DS_Store
+*.swp
+*.tmp
